@@ -29,5 +29,5 @@ setup(
         'scrapelib',
         'xmltodict',
     ],
-    scripts=['run']
+    scripts=['run', 'test/run_tests']
 )
