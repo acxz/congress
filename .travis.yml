@@ -6,7 +6,7 @@ os:
   - linux
 
 install: pip install .
-script: python test/run
+script: python test/run_tests
 
 after_success:
  - pip install pyflakes

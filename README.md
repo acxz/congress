@@ -115,7 +115,7 @@ The best way to file a bug is to [open a ticket](https://github.com/unitedstates
 To run this project's unit tests:
 
 ```bash
-./test/run
+./test/run_tests
 ```
 
 ### Who's Using This Data
