@@ -56,10 +56,11 @@ And activate it before any development session using:
 workon congress
 ```
 
-Finally, with your virtual environment activated, install Python packages:
+Finally, with your virtual environment activated, install the package, which
+will automatically pull in the Python dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install .
 ```
 
 ### Collecting the data
