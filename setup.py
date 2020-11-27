@@ -11,7 +11,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='united-states-congress',
     version='0.0.1',
-    author='Sunlight Foundation',
+    author='The unitedstates organization on GitHub',
     long_description=long_description,
     description='Public domain data collectors for the work of Congress, '
     'including legislation, amendments, and votes.',
