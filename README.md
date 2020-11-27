@@ -67,7 +67,7 @@ pip install .
 
 The general form to start the scraping process is:
 
-    ./run <data-type> [--force] [other options]
+    run <data-type> [--force] [other options]
 
 where data-type is one of:
 
@@ -81,8 +81,8 @@ where data-type is one of:
 To get data for bills, resolutions, and amendments, run:
 
 ```bash
-./run govinfo --bulkdata=BILLSTATUS
-./run bills
+run govinfo --bulkdata=BILLSTATUS
+run bills
 ```
 
 The bills script will output bulk data into a top-level `data` directory, then organized by Congress number, bill type, and bill number. Two data output files will be generated for each bill: a JSON version (data.json) and an XML version (data.xml).
